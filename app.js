@@ -9,15 +9,15 @@ var fs = require('fs');
 
 inquirer.prompt([{
     name: 'command',
-    message: 'What would you like to do?',
+    message: 'Hi, My name is Flashcard Bot. What are you going to make me do?',
     type: 'list',
     choices: [{
-        name: 'add-flashcard'
+        name: 'add-more-flashcards'
     }, {
         name: 'show-all-cards'
     }]
 }]).then(function(answer) {
-    if (answer.command === 'add-flashcard') {
+    if (answer.command === 'add-more-flashcards') {
         addCard();
     } else if (answer.command === 'show-all-cards') {
         showCards();

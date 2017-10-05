@@ -1,0 +1,2 @@
+{"front":"what is the capital of India","back":"new dehli","type":"basic"};{"front":"what is the capital of russia?","back":"moscow","type":"basic"};
+{"front":"what does rpg stand for","back":"role playing game","type":"basic"};{"front":"what fruit is the princess named after in Super Mario?","back":"peach","type":"basic"};
